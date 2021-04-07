@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Higher Lower</title>
+    <script src="higherlower.js" ></script>
+    <link rel="stylesheet" href="higherlower.css">
+</head>
+<body>
+    <h1 id="header">Higher - Lower</h1>
+    <h2></h2>
+
+    <form id=formstyle>
+<label for="userguess" name="myform">Your Guess:</label><br>
+        <input type="number" id="guessboxvalue" onkeypress="isNumberKey(event)"/><br>
+        <input type="button" value="Guess" onclick="userguess()"/>
+    </form>
+
+<p id="message"></p>  
+
+
+</body>
+</html>
